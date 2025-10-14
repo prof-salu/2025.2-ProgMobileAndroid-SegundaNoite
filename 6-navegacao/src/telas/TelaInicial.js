@@ -1,9 +1,12 @@
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, StyleSheet, Button} from 'react-native';
 
-export default function TelaInicial(){
+export default function TelaInicial({navigation}){
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Tela Inicial</Text>
+
+            <Button title='Detalhes' onPress={() => navigation.navigate('Detalhes')} />
+            <Button title='Configurações' onPress={() => navigation.navigate('Configurações')} />
         </View>
     );
 }
