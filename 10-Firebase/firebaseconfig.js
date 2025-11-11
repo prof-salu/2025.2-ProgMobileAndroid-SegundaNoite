@@ -2,11 +2,11 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 //Substitua pelas suas credencias do firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAiUWo0riEmqPUqQDTsBebdoj7FsXse_mY",
-  authDomain: "meuslembretesbarra.firebaseapp.com",
-  projectId: "meuslembretesbarra",
-  storageBucket: "meuslembretesbarra.firebasestorage.app",
-  messagingSenderId: "311320752931",
+  apiKey: "SUA_API_KEY",
+  authDomain: "SUA_API_KEY",
+  projectId: "SUA_API_KEY",
+  storageBucket: "SUA_API_KEY",
+  messagingSenderId: "SUA_API_KEY",
   appId: "1:311320752931:web:ca72fc6cee4e8eb1791296",
   measurementId: "G-YK4PL2TJEV"
 };
