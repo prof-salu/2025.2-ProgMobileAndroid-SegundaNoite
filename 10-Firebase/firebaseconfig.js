@@ -7,8 +7,8 @@ const firebaseConfig = {
   projectId: "SUA_API_KEY",
   storageBucket: "SUA_API_KEY",
   messagingSenderId: "SUA_API_KEY",
-  appId: "1:311320752931:web:ca72fc6cee4e8eb1791296",
-  measurementId: "G-YK4PL2TJEV"
+  appId: "SUA_API_KEY",
+  measurementId: "SUA_API_KEY"
 };
 //Inicializa o firebase
 const app = initializeApp(firebaseConfig)
